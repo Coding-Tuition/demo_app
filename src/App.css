@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+#linkToForm {
+  color: blue;
+  text-decoration: underline;
+}
+
+#linkToForm:hover {
+  cursor: pointer;
+}
