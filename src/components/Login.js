@@ -13,7 +13,7 @@ function Login({ switchForm }) {
     };
 
     axios({
-      url: "https://autheserver.vercel.app/login",
+      url: "https://demo-server-one.vercel.app/login",
       method: "POST",
       data: userObj,
       headers: {

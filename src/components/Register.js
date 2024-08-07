@@ -12,7 +12,7 @@ function Register({ switchForm }) {
       password: passwordRef.current.value,
     };
     axios({
-      url: "https://autheserver.vercel.app/register",
+      url: "https://demo-server-one.vercel.app/register",
       method: "POST",
       data: userObj,
       headers: { "Content-Type": "application/json" },
